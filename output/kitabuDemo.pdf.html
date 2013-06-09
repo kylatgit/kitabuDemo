@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>[Your Book Title]</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="../templates/html/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../templates/html/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="../templates/html/user.css" />
+    <meta name="author" content="John Doe" />
+    <meta name="subject" content="[Your book description]" />
+    <meta name="keywords" content="[Your book keywords (comma-separated)]" />
+    <meta name="date" content="2013-06-09" />
+  </head>
+  <body>
+    <div class="frontcover container">
+      <div>
+        <h1>[Your Book Title]</h1>
+        <p class="description">[Your book description]</p>
+        <p class="authors">John Doe</p>
+      </div>
+    </div>
+
+    <div class="table-of-contents">
+      <h2 class="no-toc">Content</h2>
+      <div id="toc">
+        <div class="level2 kitabu-demo"><a href="#kitabu-demo"><span>kitabu demo</span></a></div><div class="level3 demo-for-notes-by-kitabu"><a href="#demo-for-notes-by-kitabu"><span>Demo for Notes by kitabu</span></a></div><div class="level4 title"><a href="#title"><span>Title</span></a></div><div class="level4 itemize"><a href="#itemize"><span>Itemize</span></a></div><div class="level4 hyperlink"><a href="#hyperlink"><span>Hyperlink</span></a></div><div class="level4 command-line-effect"><a href="#command-line-effect"><span>Command Line Effect</span></a></div><div class="level4 quote-content"><a href="#quote-content"><span>Quote Content</span></a></div><div class="level4 put-images"><a href="#put-images"><span>Put Images</span></a></div><div class="level4 table"><a href="#table"><span>Table</span></a></div><div class="level4 code-highlight"><a href="#code-highlight"><span>Code Highlight</span></a></div><div class="level4 "><a href="#"><span>其餘</span></a></div>
+      </div>
+    </div>
+
+    <div id="chapters">
+      
+  <div class="chapter"><h2 id="kitabu-demo">kitabu demo</h2>
+
+<h3 id="demo-for-notes-by-kitabu">Demo for Notes by kitabu</h3>
+
+<h4 id="title">Title</h4>
+
+<table><tr><td>##</td>
+        <td>Chapter title</td>
+    </tr><tr><td>###</td>
+        <td>Section title</td>
+    </tr><tr><td>####</td>
+        <td>Item title</td>
+    </tr></table><h4 id="itemize">Itemize</h4>
+
+<p><code>* item</code></p>
+
+<p>or</p>
+
+<p><code>* item</code><br />
+    <code>* subitem</code></p>
+
+<h4 id="hyperlink">Hyperlink</h4>
+
+<p><code>[linkname](linkaddress)</code></p>
+
+<h4 id="command-line-effect">Command Line Effect</h4>
+
+<p>paragraph<br />
+    <code>command</code><br />
+paragraph<br /></p>
+
+<h4 id="quote-content">Quote Content</h4>
+
+<p><code>&lt;p class="notice"&gt;content&lt;/p&gt;</code></p>
+
+<h4 id="put-images">Put Images</h4>
+
+<p><code>&lt;p class="figure"&gt;&lt;img src="../images/file" alt="name"&gt;&lt;/p&gt;</code></p>
+
+<p class="figure"><img src="../images/test.png" alt="name" /></p>
+
+
+<p>ps: 圖片放在images/.</p>
+
+<p><br /><br /></p>
+
+<h4 id="table">Table</h4>
+
+<table><thead><tr><th>head-left</th>
+            <th>head-right</th>
+        </tr></thead><tbody><tr><td>1,1</td>
+            <td>1,2</td>
+        </tr><tr><td>2,1</td>
+            <td>2,2</td>
+        </tr></tbody></table><p>ps: <code>table&gt;thead+tbody</code> then <code>tr&gt;th*2</code> and <code>tr*2&gt;td*2</code>.</p>
+
+<h4 id="code-highlight">Code Highlight</h4>
+
+<p>@ @ @ java main.java @ @ @</p>
+
+<div class="highlight"><pre><span class="kn">package</span> <span class="n">pkPackageName</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">main</span><span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello, world!"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<p>ps: 原始碼放在code/, 不用加路徑!</p>
+
+<h4 id="">其餘</h4>
+
+<p><code>&amp;nbsp;</code><br /></p>
+
+<p><code>&lt;br&gt;</code></p>
+
+
+</div>
+
+    </div>
+
+    <div class="imprint container">
+      <div>
+        <h2>[Your Book Title]</h2>
+        <p>John Doe</p>
+        <p>Copyright (C) 2013 John Doe.</p>
+      </div>
+    </div>
+  </body>
+</html>
