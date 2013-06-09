@@ -45,7 +45,7 @@ paragraph<br>
 #### Put Images
 
 `<p class="figure"><img src="../images/file" alt="name"></p>`
-<p class="figure"><img src="../images/test.png" alt="name"></p>
+<p class="figure"><img src="test.png" alt="name"></p>
 
 ps: 圖片放在images/.
 
